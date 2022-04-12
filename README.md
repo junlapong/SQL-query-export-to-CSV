@@ -1,6 +1,6 @@
-[![Build Status](https://img.shields.io/travis/orisonchan/SQL-query-export-to-CSV/master.svg)](https://travis-ci.org/orisonchan/SQL-query-export-to-CSV)
-
 # Export SQL Query to CSV
+
+original: https://github.com/orisonchan/SQL-query-export-to-CSV.git
 
 This tools uses SpringBoot and needs at least JDK1.7.
 
@@ -24,12 +24,11 @@ Input file can support more than 1 sql but different sqls will be divided by lin
 
 File Example:
 
-~~~sql
-select * from tableA;
-SELECT 
-ID
-FROM tableB;
-~~~
+```sql
+SELECT * FROM tableA;
+SELECT ID
+  FROM tableB;
+```
 
 And the file must exists, otherwise, tools will throw *FileNotFoundException*.
 
