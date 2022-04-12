@@ -2,7 +2,7 @@
 
 original: https://github.com/orisonchan/SQL-query-export-to-CSV.git
 
-This tools uses SpringBoot and needs at least JDK1.7.
+This tools uses SpringBoot and needs at least JDK1.8.
 
 You can compile and package using Maven command:
 
@@ -16,7 +16,7 @@ When you wanna start it, please use java -jar with this two parameters:
 
 Run command example:
 
-> java -jar sql-exporter-1.0-SNAPSHOT.jar -o /home/orison/ -i /home/orison/sql.sql
+> java -jar sql-exporter.jar -o /path/to/data/ -i /path/to/sql.sql
 
 Supports Oracle、MySQL、SQL Server、DB2. You should modify ***application.properties*** file to adapt different data sources.
 

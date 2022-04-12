@@ -5,13 +5,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.orisonchan</groupId>
-  <artifactId>csv-exporter</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>sql-exporter</artifactId>
+  <version>0.1.0</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.6.6</version>
+    <version>1.4.2.RELEASE</version>
   </parent>
 
   <properties>
@@ -50,18 +50,24 @@
       <artifactId>spring-jdbc</artifactId>
       <version>4.3.4.RELEASE</version>
     </dependency>
-    <!--
+
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
     </dependency>
-  -->
+    
+<!--     <dependency>
+      <groupId>com.ibm.db2.jcc</groupId>
+      <artifactId>db2jcc</artifactId>
+      <version>db2jcc4</version>
+    </dependency>
 
     <dependency>
         <groupId>com.microsoft.sqlserver</groupId>
         <artifactId>mssql-jdbc</artifactId>
         <version>10.2.0.jre8</version>
     </dependency>
+ -->
 
     <!-- others -->
     <dependency>

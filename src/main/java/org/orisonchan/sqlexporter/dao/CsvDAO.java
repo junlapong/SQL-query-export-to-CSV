@@ -18,7 +18,7 @@ public class CsvDAO {
       File file = new File(path);
       if(file.exists())
         file.delete();
-      CsvWriter csvWriter = new CsvWriter(path, ',', Charset.forName("UTF-8"));
+      CsvWriter csvWriter = new CsvWriter(path, '|', Charset.forName("UTF-8"));
       Map<String, Object> map0 = list.get(0);
       int columnSize = map0.keySet().size();
       String[] header = new String[columnSize];
